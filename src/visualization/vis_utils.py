@@ -160,3 +160,4 @@ def visualize_two_regions(splitter_instance, folder_name, criterion, max_depth, 
     plt.savefig(save_path, dpi=300, bbox_inches='tight')
     plt.close()
     return splitter_instance.get_tree_regions()
+
