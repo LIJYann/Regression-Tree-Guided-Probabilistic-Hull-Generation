@@ -92,19 +92,12 @@ git submodule update --init --recursive
    python rocketnet.py
    ```
 
-4. **2D 示例演示**:
-   ```bash
-   cd src
-   python toy_example.py
-   ```
-
 ### 实验结果
 
 所有实验结果将保存在 `results/` 目录中：
 - `results/acas_experiments/` - ACAS 实验结果
 - `results/tanh_experiments/` - Tanh 网络实验结果
 - `results/rocketnet_experiments/` - RocketNet 实验结果
-- `results/comparison/` - 可视化结果
 
 ## 📁 项目结构
 
@@ -113,7 +106,6 @@ git submodule update --init --recursive
 │   ├── acas.py                  # ACAS Xu ReLU 网络实验主程序
 │   ├── acas_tanh.py             # ACAS Xu Tanh 网络实验主程序
 │   ├── rocketnet.py             # RocketNet 实验主程序
-│   ├── toy_example.py           # 2D 示例演示
 │   ├── construct_acas_tanh.py   # ACAS Tanh 网络构建工具
 │   │
 │   ├── utils/                   # 工具函数
@@ -130,13 +122,9 @@ git submodule update --init --recursive
 │   │   ├── tree_builder.py      # 决策树构建器
 │   │   └── __init__.py
 │   │
-│   ├── models/                  # 网络模型
-│   │   ├── tiny_network.py     # 2D 示例网络
-│   │   ├── deep_network_2d.py  # 深度 2D 网络
-│   │   └── __init__.py
-│   │
-│   └── visualization/           # 可视化工具
-│       ├── vis_utils.py         # 可视化函数
+│   └── models/                  # 网络模型
+│       ├── tiny_network.py     # 2D 示例网络
+│       ├── deep_network_2d.py  # 深度 2D 网络
 │       └── __init__.py
 │
 ├── checkpoints/                 # 预训练模型 (见 checkpoints/README.md)
