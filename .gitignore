@@ -73,3 +73,9 @@ auto_LiRPA/build/
 auto_LiRPA/**/*.so
 auto_LiRPA/**/*.egg-info/
 
+# Temporary documentation files (setup guides)
+GITHUB_SETUP.md
+QUICK_START_GITHUB.md
+RELEASE_NOTES.md
+REMOVE_FILES.md
+
