@@ -46,10 +46,12 @@ results/
 *.json
 
 # Model checkpoints (large files)
-checkpoints/**/*.nnet
-checkpoints/**/*.pt
-checkpoints/**/*.pth
-checkpoints/**/*.ckpt
+# Note: Model files are included in this repository
+# Uncomment the following lines if you want to exclude model files:
+# checkpoints/**/*.nnet
+# checkpoints/**/*.pt
+# checkpoints/**/*.pth
+# checkpoints/**/*.ckpt
 
 # Temporary files
 *.tmp
