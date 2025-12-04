@@ -1,0 +1,31 @@
+# Probabilistic Verification Project Dependencies
+# Regression-Tree-Guided Probabilistic Hull Generation
+
+# Core dependencies (aligned with auto_LiRPA requirements)
+torch>=1.11.0,<2.3.0
+torchvision>=0.12.0,<0.18.0
+numpy>=1.20.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# auto_LiRPA dependencies
+packaging>=20.0
+appdirs>=1.4
+pyyaml>=5.0
+ninja>=1.10
+tqdm>=4.64
+
+# Visualization dependencies (required only for toy_example.py)
+matplotlib>=3.3.0
+
+# Machine learning dependencies (required only for visualization module)
+scikit-learn>=0.24.0
+
+# Development dependencies (optional)
+# pytest>=5.0
+# pylint>=2.15
+# pytest-order>=1.0.0
+# jupyter
+# ipython
+
+# Note: auto_LiRPA module is included in the project as a submodule
